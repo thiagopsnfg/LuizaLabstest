@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">Testemaps</string>
+    <string name="app_name">LuizaLabsWeather</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBoOqwGNfr2x8DLm5js_HhOIB5tL3V2SuY</string>
 
     <string name="graus">%sº</string>
     <string name="temp_min">Min: %sº</string>
@@ -9,10 +10,11 @@
     <string name="change_view_state_title">Alterar o modo de exibição</string>
     <string name="change_unit_state_title">Alterar unidade de medida</string>
     <string name="distance_unit">%.2f Km</string>
+    <string name="map_dont_read_warning">O Mapa ainda não esta pronto, tente depois...</string>
 
 
     <!--    OpenWeatherApi    -->
-    <string name="api_key" translatable="false">88dfb39bbee69cdbd9c31eed187e8795</string>
+    <string name="api_key" templateMergeStrategy="preserve" translatable="false">88dfb39bbee69cdbd9c31eed187e8795</string>
     <string name="api_url" translatable="false">http://api.openweathermap.org/data/2.5/</string>
     <string name="api_icon_url" translatable="false">http://openweathermap.org/img/w/%s.png</string>
     <string name="temp_unit" translatable="false">metric</string>
