@@ -1,3 +1,29 @@
 <resources>
-    <string name="app_name">Weather</string>
+    <string name="app_name">Testemaps</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="graus">%sº</string>
+    <string name="temp_min">Min: %sº</string>
+    <string name="temp_max">Max: %sº</string>
+    <string name="change_view_state_title">Alterar o modo de exibição</string>
+    <string name="change_unit_state_title">Alterar unidade de medida</string>
+    <string name="distance_unit">%.2f Km</string>
+
+
+    <!--    OpenWeatherApi    -->
+    <string name="api_key" translatable="false">88dfb39bbee69cdbd9c31eed187e8795</string>
+    <string name="api_url" translatable="false">http://api.openweathermap.org/data/2.5/</string>
+    <string name="api_icon_url" translatable="false">http://openweathermap.org/img/w/%s.png</string>
+    <string name="temp_unit" translatable="false">metric</string>
+    <string name="temp_lang" translatable="false">pt</string>
+
+    <string name="confirm">sim</string>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location_title">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="permission_rationale_location_message">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="permission_location_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+
 </resources>
