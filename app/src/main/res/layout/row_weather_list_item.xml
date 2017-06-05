@@ -29,7 +29,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_toLeftOf="@+id/temp_near_icon"
-                
+
                 android:ellipsize="end"
                 android:text="São Paulo"
                 android:textSize="22sp"/>

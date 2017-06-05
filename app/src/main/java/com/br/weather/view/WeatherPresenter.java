@@ -53,6 +53,8 @@ public class WeatherPresenter {
 
     public void setLocation(Location location) {
         this.mCurrentLocation = new LatLng(location.getLatitude(), location.getLongitude());
+        LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, mWeatherView);
+
     }
 
     public void configMaps(GoogleMap googleMap) {
@@ -72,7 +74,6 @@ public class WeatherPresenter {
         mGoogleMap.setOnCameraIdleListener(this::nextFetchWeather);
         mGoogleMap.setOnMarkerClickListener(this::onMarkerClick);
     }
-
 
     public void switchTemperatureUnit(MenuItem item) {
         switch (WeatherUtils.currentTemperatureUnit) {

@@ -221,7 +221,7 @@ public class WeatherActivity extends AppCompatActivity implements WeatherView {
                         status.startResolutionForResult(
                                 WeatherActivity.this, PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION);
                     } catch (IntentSender.SendIntentException e) {
-
+                        showNoConnection(true);
                     }
                     break;
             }
@@ -255,6 +255,7 @@ public class WeatherActivity extends AppCompatActivity implements WeatherView {
 
     @Override
     public void onLocationChanged(Location location) {
+        mWeatherPresenter.setLocation(location);
         mWeatherPresenter.fetchWeather();
     }
 
@@ -268,7 +269,6 @@ public class WeatherActivity extends AppCompatActivity implements WeatherView {
     public void tryReconnect() {
         showNoConnection(false);
         showLoading(true);
-        mWeatherPresenter.setLocation(null);
         mWeatherPresenter.fetchWeather();
     }
 }
