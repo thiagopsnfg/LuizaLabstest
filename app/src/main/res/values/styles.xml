@@ -10,5 +10,12 @@
         <item name="android:textColorSecondary">@android:color/white</item>
         <item name="actionMenuTextColor">@android:color/white</item>
         <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="alertDialogTheme">@style/CustomDialog</item>
+    </style>
+
+    <!-- Alert Dialog -->
+    <style name="CustomDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textColorPrimary">@color/Black</item>
     </style>
 </resources>

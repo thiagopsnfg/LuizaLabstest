@@ -191,6 +191,8 @@ public class WeatherActivity extends AppCompatActivity implements WeatherView {
             });
 
             alertBuilder.create().show();
+
+            return;
         }
 
         requestPermission();

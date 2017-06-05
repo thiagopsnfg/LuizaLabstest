@@ -23,8 +23,8 @@
     <string name="confirm">sim</string>
 
     <!--    Permissions    -->
-    <string name="permission_rationale_location_title">Precisamos da permissão de localização necessária.</string>
-    <string name="permission_rationale_location_message">Precisamos da permissão de localização para buscar o clima nas cidades ao seu redor.</string>
+    <string name="permission_rationale_location_title">Permissão de localização.</string>
+    <string name="permission_rationale_location_message">Precisamos de usa localização para buscar o clima nas cidades ao seu redor.</string>
     <string name="permission_location_denied">Precisamos da permissão de localização para buscar o clima nas cidades ao seu redor. Tente novamente e conceda acesso para usar a localização.</string>
 
 </resources>

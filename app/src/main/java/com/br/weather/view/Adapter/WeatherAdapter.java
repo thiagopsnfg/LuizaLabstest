@@ -81,7 +81,7 @@ public class WeatherAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
             ImageUtils.loadImage(tempIcon,
                     String.format(Locale.getDefault(), mContext.getString(R.string.api_icon_url), city.getWeatherList().get(0).getIcon()),
                     50, 50,
-                    R.drawable.ic_happy_cloud,
+                    R.drawable.ic_01d,
                     true, true);
         }
     }

@@ -43,7 +43,7 @@ public class WeatherMapAdapter implements GoogleMap.InfoWindowAdapter {
         ImageUtils.loadImage(markeIcon,
                 String.format(Locale.getDefault(), mContext.getString(R.string.api_icon_url), city.getWeatherList().get(0).getIcon()),
                 30, 30,
-                R.drawable.ic_happy_cloud,
+                R.drawable.ic_01d,
                 true, true);
 
 
